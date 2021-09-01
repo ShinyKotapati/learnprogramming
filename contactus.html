@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Contact us</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+		body
+		{
+			background-image: url(https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTYxfHxwaG90b3Nob3B8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+			
+			background-size: cover;
+		}
+	</style>
+</head>
+<body>
+	<div class="container mt-5 bg-white shadow-lg rounded">
+  		<div class="row">
+    		<div class="col"><br>
+    			<h3 class="fw-bold text-center">Let's talk about <br>everything!</h3>
+      			<img src="https://preview.colorlib.com/theme/bootstrap/contact-form-16/images/undraw-contact.svg" width="500" height="500">
+    		</div>
+    		<div class="col"><br><br>
+      			<form action="mail.php" method="post" class="mt-5">
+  					<div class="form-group">
+				    	<input type="text" name="name" class="form-control bg-light p-2" id="exampleInputName1" aria-describedby="" placeholder="Your name">
+				  	</div><br>
+				  	<div class="form-group">
+				    	<input type="email" name="email" class="form-control bg-light p-2" id="exampleInputEmail1" placeholder="Email">
+				  	</div>
+				  	<br>
+				  	<div class="form-group">
+					  <textarea name="message" class="form-control bg-light" id="exampleFormControlTextarea1" rows="5" placeholder="Write your messege"></textarea>
+					</div><br>
+				  <button type="submit" class="btn btn-dark" data-toggle="modal" data-target="#exampleModalCenter">Send Message</button>
+				</form>
+    		</div>
+  		</div>
+  	</div>
+</body>
+</html>
+		
